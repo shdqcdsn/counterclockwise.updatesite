@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <description url="http://clojure-dev.googlecode.com/svn/updatesite/">
-      Clojuredev Update Site. Clojuredev is an Eclipse feature supporting the development of clojure code
+   <description url="http://updatesite.counterclockwise.googlecode.com/hg/">
+      Counterclockwise Update Site. Counterclockwise is an Eclipse feature supporting the development of clojure code
    </description>
    <feature url="features/clojuredev.feature_0.0.20.jar" id="clojuredev.feature" version="0.0.20">
       <category name="Clojure Programming"/>
