@@ -3,14 +3,14 @@
 <repository name='file:/home/lpetit/projects/clojuredev-updatesite/ - artifacts' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
   <properties size='2'>
     <property name='p2.compressed' value='false'/>
-    <property name='p2.timestamp' value='1247577994882'/>
+    <property name='p2.timestamp' value='1252707319928'/>
   </properties>
   <mappings size='3'>
     <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
     <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
     <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
   </mappings>
-  <artifacts size='49'>
+  <artifacts size='55'>
     <artifact classifier='osgi.bundle' id='clojure' version='0.0.0.20090120_r1217'>
       <properties size='3'>
         <property name='artifact.size' value='533677'/>
@@ -29,6 +29,13 @@
       <properties size='3'>
         <property name='artifact.size' value='161082'/>
         <property name='download.size' value='161082'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ccw' version='0.0.38'>
+      <properties size='3'>
+        <property name='artifact.size' value='212673'/>
+        <property name='download.size' value='212673'/>
         <property name='download.contentType' value='application/zip'/>
       </properties>
     </artifact>
@@ -119,6 +126,19 @@
         <property name='download.size' value='5746'/>
       </properties>
     </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='ccw.feature' version='0.0.38'>
+      <properties size='2'>
+        <property name='artifact.size' value='5842'/>
+        <property name='download.size' value='5842'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ccw.debug' version='1.0.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='4486'/>
+        <property name='download.size' value='4486'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
     <artifact classifier='org.eclipse.update.feature' id='clojuredev.feature' version='0.0.37'>
       <properties size='2'>
         <property name='artifact.size' value='5820'/>
@@ -159,17 +179,17 @@
         <property name='download.contentType' value='application/zip'/>
       </properties>
     </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='clojuredev.feature' version='0.0.23'>
+      <properties size='2'>
+        <property name='artifact.size' value='5158'/>
+        <property name='download.size' value='5158'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='clojuredev' version='0.0.21'>
       <properties size='3'>
         <property name='artifact.size' value='154617'/>
         <property name='download.size' value='154617'/>
         <property name='download.contentType' value='application/zip'/>
-      </properties>
-    </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='clojuredev.feature' version='0.0.23'>
-      <properties size='2'>
-        <property name='artifact.size' value='5158'/>
-        <property name='download.size' value='5158'/>
       </properties>
     </artifact>
     <artifact classifier='org.eclipse.update.feature' id='clojuredev.feature' version='0.0.28'>
@@ -230,10 +250,24 @@
         <property name='download.contentType' value='application/zip'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='ccw.branding' version='0.0.38'>
+      <properties size='3'>
+        <property name='artifact.size' value='30386'/>
+        <property name='download.size' value='30386'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='clojuredev' version='0.0.23'>
       <properties size='3'>
         <property name='artifact.size' value='154581'/>
         <property name='download.size' value='154581'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ccw.clojurecontrib' version='0.0.0.20090504_r756'>
+      <properties size='3'>
+        <property name='artifact.size' value='2045028'/>
+        <property name='download.size' value='2045028'/>
         <property name='download.contentType' value='application/zip'/>
       </properties>
     </artifact>
@@ -297,17 +331,17 @@
         <property name='download.contentType' value='application/zip'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='clojuredev' version='0.0.29'>
-      <properties size='3'>
-        <property name='artifact.size' value='163769'/>
-        <property name='download.size' value='163769'/>
-        <property name='download.contentType' value='application/zip'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='clojurecontrib' version='0.0.0.20090120_r394'>
       <properties size='3'>
         <property name='artifact.size' value='93094'/>
         <property name='download.size' value='93094'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='clojuredev' version='0.0.29'>
+      <properties size='3'>
+        <property name='artifact.size' value='163769'/>
+        <property name='download.size' value='163769'/>
         <property name='download.contentType' value='application/zip'/>
       </properties>
     </artifact>
@@ -335,6 +369,13 @@
       <properties size='3'>
         <property name='artifact.size' value='16129'/>
         <property name='download.size' value='16129'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ccw.clojure' version='1.0.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='1655250'/>
+        <property name='download.size' value='1655250'/>
         <property name='download.contentType' value='application/zip'/>
       </properties>
     </artifact>
