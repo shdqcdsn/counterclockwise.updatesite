@@ -3,54 +3,6 @@
    <description url="http://updatesite.counterclockwise.googlecode.com/hg/">
       Counterclockwise Update Site. Counterclockwise is an Eclipse feature supporting the development of clojure code
    </description>
-   <feature url="features/clojuredev.feature_0.0.20.jar" id="clojuredev.feature" version="0.0.20">
-      <category name="Clojure Programming"/>
-   </feature>
-   <feature url="features/clojuredev.feature_0.0.21.jar" id="clojuredev.feature" version="0.0.21">
-      <category name="Clojure Programming"/>
-   </feature>
-   <feature url="features/clojuredev.feature_0.0.22.jar" id="clojuredev.feature" version="0.0.22">
-      <category name="Clojure Programming"/>
-   </feature>
-   <feature url="features/clojuredev.feature_0.0.23.jar" id="clojuredev.feature" version="0.0.23">
-      <category name="Clojure Programming"/>
-   </feature>
-   <feature url="features/clojuredev.feature_0.0.24.jar" id="clojuredev.feature" version="0.0.24">
-      <category name="Clojure Programming"/>
-   </feature>
-   <feature url="features/clojuredev.feature_0.0.27.jar" id="clojuredev.feature" version="0.0.27">
-      <category name="Clojure Programming"/>
-   </feature>
-   <feature url="features/clojuredev.feature_0.0.28.jar" id="clojuredev.feature" version="0.0.28">
-      <category name="Clojure Programming"/>
-   </feature>
-   <feature url="features/clojuredev.feature_0.0.29.jar" id="clojuredev.feature" version="0.0.29">
-      <category name="Clojure Programming"/>
-   </feature>
-   <feature url="features/clojuredev.feature_0.0.30.jar" id="clojuredev.feature" version="0.0.30">
-      <category name="Clojure Programming"/>
-   </feature>
-   <feature url="features/clojuredev.feature_0.0.31.jar" id="clojuredev.feature" version="0.0.31">
-      <category name="Clojure Programming"/>
-   </feature>
-   <feature url="features/clojuredev.feature_0.0.32.jar" id="clojuredev.feature" version="0.0.32">
-      <category name="Clojure Programming"/>
-   </feature>
-   <feature url="features/clojuredev.feature_0.0.33.jar" id="clojuredev.feature" version="0.0.33">
-      <category name="Clojure Programming"/>
-   </feature>
-   <feature url="features/clojuredev.feature_0.0.34.jar" id="clojuredev.feature" version="0.0.34">
-      <category name="Clojure Programming"/>
-   </feature>
-   <feature url="features/clojuredev.feature_0.0.35.jar" id="clojuredev.feature" version="0.0.35">
-      <category name="Clojure Programming"/>
-   </feature>
-   <feature url="features/clojuredev.feature_0.0.36.jar" id="clojuredev.feature" version="0.0.36">
-      <category name="Clojure Programming"/>
-   </feature>
-   <feature url="features/clojuredev.feature_0.0.37.jar" id="clojuredev.feature" version="0.0.37">
-      <category name="Clojure Programming"/>
-   </feature>
    <feature url="features/ccw.feature_0.0.38.jar" id="ccw.feature" version="0.0.38">
       <category name="Clojure Programming"/>
    </feature>
