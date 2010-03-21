@@ -39,6 +39,9 @@
    <feature url="features/ccw.feature_0.0.50.STABLE.jar" id="ccw.feature" version="0.0.50.STABLE">
       <category name="Clojure Programming"/>
    </feature>
+   <feature url="features/ccw.feature_0.0.51.STABLE.jar" id="ccw.feature" version="0.0.51.STABLE">
+      <category name="Clojure Programming"/>
+   </feature>
    <category-def name="Clojure Programming" label="Clojure Programming">
       <description>
          Clojure Programming tools and environments
