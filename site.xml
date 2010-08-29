@@ -81,6 +81,15 @@
    <feature url="features/ccw.support.examples.feature_0.0.2.STABLE01.jar" id="ccw.support.examples.feature" version="0.0.2.STABLE01">
       <category name="Clojure Programming - Examples"/>
    </feature>
+   <feature url="features/ccw.feature_0.0.61.BETA01.jar" id="ccw.feature" version="0.0.61.BETA01">
+      <category name="Clojure Programming - Beta Releases"/>
+   </feature>
+   <feature url="features/ccw.feature_0.0.62.STABLE01.jar" id="ccw.feature" version="0.0.62.STABLE01">
+      <category name="Clojure Programming"/>
+   </feature>
+   <feature url="features/ccw.support.examples.feature_0.0.2.STABLE02.jar" id="ccw.support.examples.feature" version="0.0.2.STABLE02">
+      <category name="Clojure Programming - Examples"/>
+   </feature>
    <category-def name="Clojure Programming" label="Clojure Programming">
       <description>
          Clojure Programming tools and environments
@@ -92,4 +101,9 @@
       </description>
    </category-def>
    <category-def name="Clojure Programming - Examples" label="Clojure Programming - Examples"/>
+   <category-def name="Clojure Programming - Beta Releases" label="Clojure Programming - Beta Releases">
+      <description>
+         Clojure Programming tools and environments. Beta Releases versions.
+      </description>
+   </category-def>
 </site>
