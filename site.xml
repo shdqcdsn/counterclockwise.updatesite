@@ -72,9 +72,6 @@
    <feature url="features/ccw.feature_0.0.59.STABLE01.jar" id="ccw.feature" version="0.0.59.STABLE01">
       <category name="Clojure Programming"/>
    </feature>
-   <feature url="features/ccw.feature_0.0.60.BETA01.jar" id="ccw.feature" version="0.0.60.BETA01">
-      <category name="Clojure Programming - Release candidates"/>
-   </feature>
    <feature url="features/ccw.feature_0.0.60.STABLE01.jar" id="ccw.feature" version="0.0.60.STABLE01">
       <category name="Clojure Programming"/>
    </feature>
@@ -110,6 +107,9 @@
    </feature>
    <feature url="features/ccw.feature_replui_0.2.0.BETA01.jar" id="ccw.feature_replui" version="0.2.0.BETA01">
       <category name="Clojure Programming - Beta Releases"/>
+   </feature>
+   <feature url="features/ccw.feature_replui_0.2.0.RC01.jar" id="ccw.feature_replui" version="0.2.0.RC01">
+      <category name="Clojure Programming - Release candidates"/>
    </feature>
    <category-def name="Clojure Programming" label="Clojure Programming">
       <description>
